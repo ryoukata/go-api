@@ -17,7 +17,7 @@ func main() {
 	router.Use(intercepter.BasicAuth())
 
 	// サーバ起動
-	router.Logger.Fatal(router.Start(":8081"))
+	router.Logger.Fatal(router.Start(":8080"))
 }
 
 // NewRouter return *echo.Echo
